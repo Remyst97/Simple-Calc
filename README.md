@@ -1,5 +1,6 @@
-# Simple-Calc
-#Initialize application on MyForm.cpp:
+ Simple-Calc
+
+Initialize application on MyForm.cpp:
 
 	#include "MyForm.h"
 	using namespace System;
@@ -14,7 +15,9 @@
     	  Application::Run(% form);
 	}
 
-#Design form with two text with for variables, empty lable and four buttons for the functions on MyForm.h [Design]. // ![image](https://user-images.githubusercontent.com/127352211/223856722-1940bd46-8f6e-418f-9d7c-93bb18c5c07d.png)
+Design form with two text with for variables, empty lable and four buttons for the functions on MyForm.h [Design].
+
+![image](https://user-images.githubusercontent.com/127352211/223856722-1940bd46-8f6e-418f-9d7c-93bb18c5c07d.png)
 
 #Code for the design of my Calculator on MyForm.h:
 
@@ -208,7 +211,7 @@
 
 			}
   
-  #Add fuctions to labels and textbox:
+Add fuctions to labels and textbox:
     
     #pragma endregion
 	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
@@ -216,7 +219,7 @@
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
   
-  #Convert strings enter into textbox into doubles and added functions to each respected button.
+Convert strings enter into textbox into doubles and added functions to each respected button.
   
 	private: System::Void addition_Click(System::Object^ sender, System::EventArgs^ e) {
 
@@ -249,8 +252,9 @@
     };
     }
 
-#RESULTS:
-#![image](https://user-images.githubusercontent.com/127352211/223858545-de3e2bde-4da3-402a-aa84-5c830713af35.png) // ![image](https://user-images.githubusercontent.com/127352211/223858623-a8398b90-591c-48ed-889f-080b68fa292a.png) // ![image](https://user-images.githubusercontent.com/127352211/223858716-667a928b-427d-4e90-86d8-bc6989c24025.png) //![image](https://user-images.githubusercontent.com/127352211/223858806-93213c3e-19b6-4938-bbeb-fbb2753c2fa0.png)
+RESULTS:
+
+![image](https://user-images.githubusercontent.com/127352211/223858545-de3e2bde-4da3-402a-aa84-5c830713af35.png)  ![image](https://user-images.githubusercontent.com/127352211/223858623-a8398b90-591c-48ed-889f-080b68fa292a.png)  ![image](https://user-images.githubusercontent.com/127352211/223858716-667a928b-427d-4e90-86d8-bc6989c24025.png) ![image](https://user-images.githubusercontent.com/127352211/223858806-93213c3e-19b6-4938-bbeb-fbb2753c2fa0.png)
 
 
 
